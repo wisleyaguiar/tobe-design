@@ -1,0 +1,23 @@
+<!-- @dsCard group="Components" viewport="700x260" name="KPI Card, Table, Sparkline" subtitle="Dashboard primitives" -->
+<!doctype html><html><head><link rel="stylesheet" href="../../styles.css"></head>
+<body style="margin:0;background:var(--surface-canvas);width:700px;height:260px;box-sizing:border-box;padding:24px;display:flex;flex-direction:column;gap:16px">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<div id="root"></div>
+<script type="text/babel">
+const { KpiCard, Table, Sparkline } = window.TOBEDesignSystem_a9c1f8;
+function Demo(){
+  return (<>
+    <div style={{display:'flex',gap:16}}>
+      <KpiCard label="Faturamento" value="R$ 128k" delta="+12.4%"/>
+      <KpiCard label="Alcance" value="92k" delta="+3.1%"/>
+      <div style={{background:'var(--surface-card)',border:'1px solid var(--border-subtle)',padding:16,display:'flex',alignItems:'center'}}><Sparkline data={[4,7,6,9,12,10,14,13,16]}/></div>
+    </div>
+    <Table columns={['Cliente','Canal','ROAS']} rows={[['Tricard','Meta Ads','4.8x'],['Vero','Google Ads','3.2x']]}/>
+  </>);
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>
+</body></html>

@@ -1,0 +1,10 @@
+:root{
+--radius-sharp:0px;
+--radius-soft:4px;
+--shadow-premium:0 10px 40px rgba(0,0,0,0.4);
+--shadow-card:0 4px 24px rgba(0,0,0,0.35);
+--ease-cinematic:cubic-bezier(0.4,0,0.2,1);/* @kind other */
+--duration-fast:150ms;/* @kind other */
+--duration-base:280ms;/* @kind other */
+--duration-slow:500ms;/* @kind other */
+}

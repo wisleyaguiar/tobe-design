@@ -1,0 +1,12 @@
+:root{
+--font-display:'Norman',"Times New Roman",serif;
+--font-sans:'DuNord',-apple-system,Helvetica,Arial,sans-serif;
+
+--h1-size:72px;--h1-lh:0.95;/* @kind other */--h1-weight:700;--h1-tracking:-2px;
+--h2-size:48px;--h2-lh:1;/* @kind other */--h2-weight:700;--h2-tracking:-1px;
+--h3-size:32px;--h3-lh:1.1;/* @kind other */--h3-weight:600;--h3-tracking:-0.3px;
+--h4-size:24px;--h4-lh:1.2;/* @kind other */--h4-weight:600;--h4-tracking:0;
+--body-size:14px;--body-lh:1.6;/* @kind other */--body-weight:500;
+--small-size:12px;--small-lh:1.5;/* @kind other */--small-weight:500;
+--label-size:11px;--label-lh:1.4;/* @kind other */--label-weight:600;--label-tracking:1.5px;
+}
