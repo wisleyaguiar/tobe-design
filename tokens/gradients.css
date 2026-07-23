@@ -1,0 +1,11 @@
+:root{
+--mesh-void:radial-gradient(at 12% 18%,rgba(255,42,0,0.35) 0,transparent 50%),radial-gradient(at 88% 8%,rgba(217,36,0,0.22) 0,transparent 55%),radial-gradient(at 55% 95%,rgba(255,255,255,0.05) 0,transparent 50%),var(--black-950);
+--mesh-ember:radial-gradient(at 18% 25%,rgba(255,42,0,0.5) 0,transparent 45%),radial-gradient(at 82% 75%,rgba(5,5,5,0.92) 0,transparent 60%),var(--gray-900);
+--mesh-ash:radial-gradient(at 25% 20%,rgba(184,184,184,0.14) 0,transparent 45%),radial-gradient(at 75% 80%,rgba(255,42,0,0.18) 0,transparent 55%),var(--black-950);
+--aura-accent:radial-gradient(circle at 50% 35%,rgba(255,42,0,0.45),transparent 70%);/* @kind other */
+--glass-surface:rgba(26,26,26,0.55);
+--glass-surface-light:rgba(245,245,245,0.07);
+--glass-border:rgba(255,255,255,0.09);
+--glass-blur:blur(24px);/* @kind other */
+--glass-blur-soft:blur(48px);/* @kind other */
+}
